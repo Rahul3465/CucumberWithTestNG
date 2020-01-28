@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Automation Test Framework]" data-provider-thread-count="2">
+  <listeners>
+    <listener class-name="com.framework.Listeners.ITestListenerImpl"/>
+  </listeners>
+  <test thread-count="5" name="Automation Test Framework(failed)">
+    <classes>
+      <class name="com.framework.TestRunner.TestRunner">
+        <methods>
+          <include name="feature" invocation-numbers="1 2"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- com.framework.TestRunner.TestRunner -->
+    </classes>
+  </test> <!-- Automation Test Framework(failed) -->
+</suite> <!-- Failed suite [Automation Test Framework] -->
