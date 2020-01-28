@@ -16,7 +16,7 @@
 <suite name = "Automation Test Framework" data-provider-thread-count="2">
 	<test name = "Automation Test Framework">
 		<classes>
-      <class name="com.framework.TestRunner.TestRunner"/>
+      <class name="com.framework.Runner.TestRunner"/>
     </classes>
   </test> 
   
